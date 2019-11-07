@@ -1,69 +1,39 @@
-.container{
-    background-color: blue;
-    max-width: 100%;
+body{
     margin: 0;
     padding: 0;
 }
-
-.bg-image{
-    background: url("../images/home_background.jpg")no-repeat 0 0 / cover;
-    background-position: bottom center;
+.header_image{
     height: 100vh;
-    width: 100vw;
-}
-.testimonials-container{
-    display: block;
-    position: absolute;
-    top: 50vh;
-    left: 40vw;
-    float: right;
-    color: white;
-    padding: 10px;
-    width: 60vw;
-    height: 50vh;
-}
-.testimonials-container .col-xs-6{
-    display: inline-block;
-}
-.testimonials-container h2{
-    right: 10%;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 1.3rem;
-}
-.testimonials-container h6{
-    text-align: center;
-    font-weight: lighter;
-}
-.testimonials-container p{
-    text-align: center;
-    margin-top: 2em;
-}
-.testimonials-container .image{
-    background-color: whitesmoke;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 2% auto;
-}
-.partner-image{
-    background-image: url("../images/partneri/mistral-01-01.png");
-    height: 50px;
-    display: block;
-    background-position: left center;
-    background-size: contain;
+    background-image: url("../images/home_background.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
 }
-.right{
-    width: 280px;
-    height: 100px;
-    float: left;
-    margin-left: 20%;
+.testimanial_container{
+    height: 50%;
 }
-.left{
-    width:100px;
-    height: 100px;
-    float: right;
-    margin-right: 10%;
+.testimanial_container p{
+    text-align: center;
+    margin: auto;
+    padding: 3rem;
+}
+.testimonial_text h3{
+    height: 50%;
+    line-height: 50%;
+    text-align: center;
+    margin: auto 0 auto 0;
+    padding: 1rem;
+}
+.testimonial_text h4{
+    height: 50%;
+    text-align: center;
+    margin: auto 0 auto 0;
+
+    padding: 1rem;
+}
+.testimanial{
+    width: 100%;
+    height: 35%;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
 }
