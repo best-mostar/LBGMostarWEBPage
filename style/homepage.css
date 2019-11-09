@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #4090c4;
 }
 .header_image{
     height: 100vh;
@@ -15,6 +16,9 @@ body{
     text-align: center;
     margin: auto;
     padding: 3rem;
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    color: #69beef;
 }
 .testimonial_text h3{
     height: 50%;
@@ -22,18 +26,44 @@ body{
     text-align: center;
     margin: auto 0 auto 0;
     padding: 1rem;
+    font-size: 1.4rem;
+    color: white;
 }
 .testimonial_text h4{
     height: 50%;
     text-align: center;
     margin: auto 0 auto 0;
-
+    font-size: 1.1rem;
     padding: 1rem;
+    color: #69beef;
 }
 .testimanial{
     width: 100%;
     height: 35%;
-    background-color: aqua;
+    background-color: #4090c4;
     position: absolute;
     bottom: 0;
+}
+.novosti_section{
+    width: 100%;
+    margin: 0;
+}
+.novosti_section_header{
+    width: 100%;
+    margin: 0;
+}
+.novosti_section_header h2{
+    margin: 8% auto 8% auto;
+    color: white;
+    text-align: center;
+}
+.novosti_section_content{
+    width: 100%;
+    height: 300px;
+    margin: 0;
+}
+.box{
+    height: 80%;
+    width: 80%;
+    background-color: #69beef;
 }
