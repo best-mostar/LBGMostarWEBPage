@@ -1,7 +1,18 @@
-.ebec {
+body {
     background-color: #EFA324;
-    display: flex;
 }
+
+.jumbotron {
+    background-color: #D88A22;
+    margin: 2.5%;
+    color: white;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+
     /*Best Courses Romb*/
 .Romb1{
     background-color: #D88A22;
@@ -31,6 +42,10 @@
     transform: skewX(15deg);
     margin: 5% 0% 0% 5%;
     padding: 10%;
+}
+
+.col-sm {
+    background-color: #D88A22;
 }
 
     
