@@ -1,0 +1,36 @@
+.ebec {
+    background-color: #EFA324;
+    display: flex;
+}
+    /*Best Courses Romb*/
+.Romb1{
+    background-color: #D88A22;
+    width: 35vh;
+    height: 16vh;
+    transform: skewX(-15deg);
+    margin: 0% 0% 5% 5%;
+    position: relative;
+}
+
+.Romb1 img{
+    margin: 5% 0% 0% 10%;
+    transform: skewX(15deg);
+}
+
+.Romb2 {
+    background-color: #D88A22;
+    width: 35vh;
+    height: 16vh;
+    transform: skewX(-15deg);
+    margin: 0% 0% 5% 5%;
+    position: relative;
+    color: white;
+}
+
+.Romb2 p {
+    transform: skewX(15deg);
+    margin: 5% 0% 0% 5%;
+    padding: 10%;
+}
+
+    
