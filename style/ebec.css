@@ -1,6 +1,23 @@
 #content-mobile {
     display: none;
 }
+#content-desktop {
+    display: block;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.romb {
+    color: white;
+    font-size: 12px;
+}
+
+#head_image {
+    margin: 5% 0% 0% 0%;
+    transform: skewX(15deg);
+}
 
 body {
     background-color: #EFA324;
@@ -44,8 +61,7 @@ body {
     width: 35vh;
     height: 16vh;
     transform: skewX(-25deg);
-    margin: 0% 0% 5% 5%;
-    position: relative;
+    display: inline-block;
 }
 
 @media only screen and (max-width:500px){
