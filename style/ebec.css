@@ -1,5 +1,10 @@
+#content-mobile {
+    display: none;
+}
+
 body {
     background-color: #EFA324;
+    font-family: 'Raleway', sans-serif;
 }
 
 .jumbotron {
@@ -12,16 +17,84 @@ body {
     max-width: 100%;
 }
 
+.card {
+    background-color: #D88A22;
+}
 
-    /*Best Courses Romb*/
-.Romb1{
+.card .btn-lg {
+    color: white;
+    text-decoration: none;
+} 
+
+.card-body {
+    color: white;
+}
+
+.rounds {
+    text-align: center;
+    background-color: white;
+}
+
+.rounds-text {
+    color: white;
+}
+
+.romb{
     background-color: #D88A22;
     width: 35vh;
     height: 16vh;
-    transform: skewX(-15deg);
+    transform: skewX(-25deg);
     margin: 0% 0% 5% 5%;
     position: relative;
 }
+
+@media only screen and (max-width:500px){
+    #content-mobile {
+        display: block;
+    }
+
+    #content-desktop {
+        display: none;
+    }
+    
+    .jumbotron {
+        background-color: #D88A22;
+        margin: 2.5%;
+        color: white;
+    }
+    
+    .img-fluid {
+        max-width: 100%;
+    }
+    
+    .card {
+        background-color: #D88A22;
+        margin: 2.5%;
+    }
+    
+    .card .btn-lg {
+        color: white;
+        text-decoration: none;
+    } 
+    
+    .card-body {
+        color: white;
+        padding: 0% 5% 5% 5%;
+    }
+    
+    .rounds {
+        text-align: center;
+        background-color: white;
+    }
+    
+    .rounds-text {
+        color: white;
+        margin: 3%;
+    }
+}
+
+    /*Best Courses Romb*/
+
 
 .Romb1 img{
     margin: 5% 0% 0% 10%;
