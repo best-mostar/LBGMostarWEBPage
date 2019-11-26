@@ -11,39 +11,52 @@ body{
     background-repeat: no-repeat;
 }
 .testimanial_container{
-    height: 50%;
+    position: relative;
+    left: 50%;
+}
+.testimanial_container_paragraph{
+    left: 30%;
+    width: 70%;
 }
 .testimanial_container p{
     text-align: center;
     margin: auto;
     padding: 3rem;
     padding-top: 1rem;
-    font-size: 0.7rem;
-    color: #69beef;
+    font-size: 0.8rem;
+    color: white;
+    width: 100%;
 }
 .testimonial_text h3{
-    height: 50%;
     line-height: 50%;
-    text-align: center;
-    margin: auto 0 auto 0;
-    padding: 1rem;
+    text-align: right;
+    margin: 5px 0 5px 0;
     font-size: 1.4rem;
     color: white;
 }
 .testimonial_text h4{
-    height: 50%;
-    text-align: center;
-    margin: auto 0 auto 0;
+    text-align: right;
+    margin: 5px 0 5px 0;
     font-size: 1.1rem;
-    padding: 1rem;
-    color: #69beef;
+    color: rgba(255, 255, 255, 0.7);
 }
 .testimanial{
-    width: 100%;
-    height: 35%;
-    background-color: #4090c4;
+    width: 50vw;
+    height: 33vh;
+    background: url("../design/untitled.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
+    right: -5vw;
     bottom: 0;
+}
+.testimonial_company_image{
+    background: url("../images/partneri/mistral-01-01.png");
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    right: -82px;
 }
 .fas-container{
     width: 7rem;
@@ -52,6 +65,19 @@ body{
     position: relative;
     top: 100%;
     transform: translateY(-8rem);
+}
+.profile_image_container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16vh;
+    height: 16vh;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5%
+}
+.profile_image{
+
 }
 .fas{
     font-size: 10rem;
@@ -95,8 +121,8 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .facts_section_content h1{
     width: 100%;
