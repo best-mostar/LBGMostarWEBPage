@@ -69,6 +69,8 @@ body{
     margin: 8% auto 8% auto;
     color: white;
     text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
 }
 .novosti_section_content{
     width: 100%;
