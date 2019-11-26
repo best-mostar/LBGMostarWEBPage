@@ -1,156 +1,97 @@
 /* desktop version */
-@media only screen and (min-width:768px){
+
+@media only screen and (min-width:768px) {
     #content-mobile {
         display: none;
     }
     #content-desktop {
         display: block;
     }
-    
     .img-fluid {
         max-width: 100%;
     }
-    
     .romb {
+        background-color: #D88A22;
+        width: 40vh;
+        height: 17vh;
+        /* transform: skewX(-25deg); */
         color: white;
         font-size: 12px;
     }
-    
-    #head_image {
-        margin: 5% 0% 0% 0%;
-        transform: skewX(15deg);
+    .romb img {
+        margin: 5% 0% 10% 8%;
+        width: 80%;
+        /* transform: skewX(15deg); */
     }
-    
+    .romb p {
+        margin: 5% 0% 0% 8%;
+        font-size: 12px;
+        /* transform: skewX(15deg); */
+    }
+    .romb h1 {
+        margin: 12.5% 0% 0% 11%;
+    }
+    .categories p {
+        width: 40vh;
+        margin-right: 20%;
+    }
     body {
         background-color: #EFA324;
         font-family: 'Raleway', sans-serif;
     }
-    
-    .jumbotron {
-        background-color: #D88A22;
-        margin: 2.5%;
-        color: white;
-    }
-    
     .img-fluid {
         max-width: 100%;
     }
-    
-    .card {
-        background-color: #D88A22;
-        border-top: 0px;
-    }
-    
-    .card .btn-lg {
-        color: white;
-        text-decoration: none;
-        outline: none;
-    } 
-    
-    .card-body {
-        color: white;
-    }
-    
-    .rounds {
-        text-align: center;
-        background-color: white;
-    }
-    
-    .rounds-text {
-        color: white;
-    }
-    
-    .romb{
-        background-color: #D88A22;
-        width: 35vh;
-        height: 16vh;
-        transform: skewX(-25deg);
-        display: inline-block;
-    } 
 }
+
+
 /* mobile version */
-@media only screen and (max-width:768px){
+
+@media only screen and (max-width:768px) {
     #content-mobile {
         display: block;
     }
-
-
     #content-desktop {
         display: none;
     }
-
     body {
         background-color: #EFA324;
         font-family: 'Raleway', sans-serif;
     }
-    
     .jumbotron {
         background-color: #D88A22;
         color: white;
     }
-    
     .img-fluid {
         max-width: 100%;
     }
-    
     .card {
         background-color: #D88A22;
         margin: 2.5% 0%;
         outline: none;
         border: none;
     }
-    
     .card .btn-lg {
         color: white;
         text-decoration: none;
         outline: none;
         border: none;
-    } 
-    
+    }
     .card-body {
         color: white;
         background-color: #D18621;
         padding: 0% 5% 5% 5%;
         border: none;
     }
-    
     .rounds {
         text-align: center;
         background-color: white;
     }
-    
     .rounds-text {
         color: white;
         margin: 2.5% 2%;
     }
 }
 
-    /*Best Courses Romb*/
 
-
-.Romb1 img{
-    margin: 5% 0% 0% 10%;
-    transform: skewX(15deg);
-}
-
-.Romb2 {
-    background-color: #D88A22;
-    width: 35vh;
-    height: 16vh;
-    transform: skewX(-15deg);
-    margin: 0% 0% 5% 5%;
-    position: relative;
-    color: white;
-}
-
-.Romb2 p {
-    transform: skewX(15deg);
-    margin: 5% 0% 0% 5%;
-    padding: 10%;
-}
-
-.col-sm {
-    background-color: #D88A22;
-}
-
-    
+/*Best Courses Romb*/
