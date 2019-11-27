@@ -56,6 +56,9 @@
         display: inline-block;
         color: white;
     }
+    #lead {
+        font-size: 12.5px;
+    }
 }
 
 
