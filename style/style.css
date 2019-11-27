@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Googleov;
+    src: url(font/ProductSans-Thin.woff);
+}
+
+* {
+    font-family: Googleov;
+}
+
+.navbar {
+    background-color: #1B3A59 !important;
+    padding: 0;
+    height: 70px;
+}
+
+.navbar a {
+    color: #FFFFFF !important;
+    font-size: 25px;
+}
+
+.navbar .container-fluid {
+    padding: 0%;
+}
+
+.navbar-collapse {
+   background-color: #1f5590;
+   padding: 8px;
+   transform: skewX(-15deg);
+   height: 90px;
+}
+
+.unSkew {
+    transform: skewX(15deg);
+    float: right;
+}
+
+.navbar-brand {
+    padding: 8px;
+    margin: 0;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+}
+
+.navbar-toggler {
+    border: 0.8px solid #FFFFFF !important;
+}
+
+.navbar-toggler-icon {
+    color: #FFFFFF !important;
+}   
+
+.headerLogo {
+    max-width: 51px;
+}
+
+.dropdown-menu {
+    background-color: #CE2124;
+    border-radius: 0; 
+}
+
+.dropdown-item:hover {
+    background-color: #F85758; 
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
