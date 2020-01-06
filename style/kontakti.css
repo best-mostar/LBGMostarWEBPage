@@ -1,0 +1,73 @@
+.kontakti{
+    background-color: #4090c4
+}
+
+.kontaktBox{
+    width: 15%;
+    height: 20%;
+    background-color: #1f5590;
+    transform: skewX(15deg);
+    font-size: 200%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 12%;
+    margin-left: 20%;
+    position: relative;
+}
+
+.kontaktBox p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    margin-top: 7%;
+    transform: skewX(-15deg);
+}
+
+.kontaktInfo{
+    display: block;
+    position: center;
+    width: 60%;
+    height: 50%;
+    color: #69beef;
+    margin-left: 20.67%;
+}
+
+.bestInfo{
+    padding: 2%;
+    position: relative;
+    display: block;
+    background-color: #69beef;
+    font-size: 150%;
+    width: 52%;
+    height: 30vh;
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+}
+
+.presidentInfo{
+    position: relative;
+    display: block;
+    margin-top: 1%;
+    padding: 2%;
+    background-color: #69beef;
+    font-size:150%;
+    width: 52%;
+    height: 23.7vh;
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+}
+
+span{
+    padding: 2.5%;
+    margin: 1%
+}
+
+.maps{
+    margin: 0% 0% 0% 53%;
+    background-color: #69beef;
+    height: 55vh;
+}
