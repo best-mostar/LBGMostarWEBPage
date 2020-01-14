@@ -1,0 +1,25 @@
+* {
+	color: white;
+}
+body {
+	background-color: #4090c4;
+}
+.thanks-container {
+	width: 70%;
+	margin: 5vh auto;
+}
+.thanks-logo {
+	background: url("../images/partneri_thanks_logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 190px;
+}
+.thanks-message {
+	margin: 4% 0;
+	font-size: 190%;
+}
+.partner-logo {
+	background-size: contain;
+	background-repeat: no-repeat;
+}

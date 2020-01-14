@@ -140,7 +140,8 @@ body{
     margin: 0;
 }
 .highlight_number h1{
-    color:#d12124;
+    color: white;
+    font-weight: bolder;
     margin: 20% 10%;
 }
 .projects_org{
