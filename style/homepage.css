@@ -1,0 +1,297 @@
+html, body { overflow-x: hidden; font-family: Arial, Helvetica, sans-serif; }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #4090c4;
+}
+.header_image{
+    height: 100vh;
+    background-image: url("../images/home_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testimanial_container{
+    position: relative;
+    left: 50%;
+}
+.testimanial_container_paragraph{
+    left: 30%;
+    width: 70%;
+}
+.testimanial_container p{
+    text-align: center;
+    margin: auto;
+    padding: 3rem;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    color: white;
+    width: 100%;
+}
+.testimonial_text h3{
+    line-height: 50%;
+    text-align: right;
+    margin: 5px 0 5px 0;
+    font-size: 1.4rem;
+    color: white;
+}
+.testimonial_text h4{
+    text-align: right;
+    margin: 5px 0 5px 0;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.testimanial{
+    width: 50vw;
+    height: 33vh;
+    background: url("../design/untitled.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: -5vw;
+    bottom: 0;
+}
+.testimonial_company_image{
+    background: url("../images/partneri/mistral-01-01.png");
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    right: -82px;
+}
+.fas-container{
+    width: 7rem;
+    height: 5rem;
+    margin: 0 auto;
+    position: relative;
+    top: 100%;
+    transform: translateY(-8rem);
+}
+.profile_image_container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16vh;
+    height: 16vh;
+    background-color: white;
+    border-radius: 100%;
+    margin: 5%
+}
+.profile_image{
+
+}
+.fas{
+    font-size: 10rem;
+    color: #4090c4;
+}
+.novosti_section{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 12%;
+    margin-top: 12%;
+}
+.novosti_section_header{
+    width: 100%;
+    margin: 0;
+}
+.novosti_section_header h2{
+    margin: 2% auto 3% auto;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 3.5rem;
+}
+.novosti_section_content{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.box{
+    height: 80%;
+    width: 80%;
+    background-color: #69beef;
+    margin: 0 auto;
+}
+.facts_section{
+    width: 105%;
+    margin: 20% auto 20% -15px;
+    background-color: #1b3a59;
+}
+.facts_section_content{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.facts_section_content h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 20% 0;
+}
+.box_facts{
+    height: 160px;
+    width: 160px;
+    margin: auto;
+}
+.highlight_number{
+    width: 100%;
+    margin: 0;
+}
+.highlight_number h1{
+    color: white;
+    font-weight: bolder;
+    margin: 20% 10%;
+}
+.projects_org{
+    background: url("../images/fun_facts_projects.png");
+    background-size: cover;
+}
+.members_org{
+    background: url("../images/fun_facts_network.png");
+    background-size: cover;
+}
+.kilometers_org{
+    background: url("../images/fun_facts_travels.png");
+    background-size: cover;
+}
+.coffe_org{
+    background: url("../images/fun_facts_coffee.png");
+    background-size: cover;
+}
+.news_box{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 10px;
+    transition: all .1s ease-in-out;
+}
+.news_box:hover{
+    transform: scale(1.05);
+}
+.news_image{
+    width: 100%;
+    height: 300px;
+    background: url("../images/best_courses_img1.jpg");
+    background-size: cover;
+}
+.underline{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.date_time p{
+    margin:0;
+}
+.date_time{
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    font-size: 0.8rem;
+    height: 1rem;
+}
+.date_time_text{
+    display: inline-block;
+}
+.news_text h3{
+    margin: 10px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+.paragraph_text{
+    position: relative;
+    height: 30%;
+}
+.news_text p{
+    position: relative;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.date_time p{
+    margin:0;
+}
+.read_more_btn{
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+
+
+
+
+
+/*MEDIA QUERIES FOR PHONES*/
+@media only screen and (max-width: 480px){
+
+    .fas-container{
+        display: none;
+    }
+
+    .testimanial{
+        right: 0;
+        width: 100%;
+        background: #4090c4;
+        height: 25vh;
+    }
+    .testimanial_container{
+        left: 0;
+    }
+    .testimonial_company_image{
+        right: 0;
+        margin-left: 5%;
+        width: 4rem;
+        height: 4rem;
+    }
+    .testimonial_text h3{
+        text-align: right;
+        margin: 0.5rem auto;
+        font-size: 1rem;
+        margin-right: 25vh;
+    }
+    .testimonial_text h4{
+        text-align: right;
+        margin: 0.5rem auto;
+        font-size: 0.7rem;
+        margin-right: 25vh;
+    }
+    .profile_image_container{
+        position: absolute;
+        right: 0;
+        top: -6.85em;
+        bottom: 10%;
+        float: right;
+        transform: none;
+        width: 45vw;
+        height: 25vh;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .testimanial_container p{
+        width: 65vw;
+        font-size: 0.6rem;
+        margin: 0;
+        padding: 15px;
+        padding-left: 20px;
+    }
+
+
+
+    .facts_section{
+        width: 110%;
+    }
+    .novosti_section{
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .facts_section_content h1{
+        padding: 10% 20%;
+        margin: 0% 0 30% 0;
+    }
+    .highlight_number h1{
+        margin: 5% 10%;
+        padding: 3%;
+    }
+}
