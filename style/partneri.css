@@ -23,3 +23,10 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 600px) {
+	.thanks-message {
+		text-align: center;
+		font-size: 150%;
+	}
+}
