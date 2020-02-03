@@ -1,22 +1,29 @@
 /* desktop version */
-
+p h1 h2 h3 h4 h5 h6{
+    color: black;
+}
 @media only screen and (min-width:768px) {
     #content-mobile {
         display: none;
     }
     #content-desktop {
         display: block;
+        margin-top: 10%;
+    }
+    .jumbotron{
+        margin: 0 auto;
     }
     .img-fluid {
         max-width: 100%;
     }
     .romb {
-        background-color: #D88A22;
-        width: 20vw;
-        height: 17vh;
+        background-color: transparent;
+        width: 25vw;
+        height: 22vh;
         /* transform: skewX(-25deg); */
-        color: white;
+        color: black;
         font-size: 12px;
+        margin: 10% auto;
     }
     .romb img {
         margin: 5% 0% 10% 8%;
@@ -30,7 +37,7 @@
     .categories  {
         width: 20vw;
         background-color: #ED9C26;
-        color: white;
+        color: black;
     }
     body {
         background-color: #EFA324;
@@ -40,7 +47,7 @@
         max-width: 100%;
     }
     .rounds{
-        background-color: white;
+        background-color: black;
     }
     .rounds img{
         width:80%;
@@ -48,16 +55,17 @@
     }
     .line {
         width: 1vw;
-        background-color: white;
+        background-color: black;
         height: 35vh;
     }
     .descriptions
     {
         display: inline-block;
-        color: white;
+        color: black;
     }
     #lead {
-        font-size: 12.5px;
+        font-size: 15.5px;
+        text-align: center;
     }
 }
 
@@ -67,6 +75,7 @@
 @media only screen and (max-width:768px) {
     #content-mobile {
         display: block;
+        margin-top: 10%;
     }
     #content-desktop {
         display: none;
@@ -76,8 +85,8 @@
         font-family: 'Raleway', sans-serif;
     }
     .jumbotron {
-        background-color: #D88A22;
-        color: white;
+        background-color: transparent;
+        color: black;
     }
     .img-fluid {
         max-width: 100%;
@@ -88,24 +97,28 @@
         outline: none;
         border: none;
     }
+    .lead{
+        text-align: center;
+    }
     .card .btn-lg {
-        color: white;
+        color: black;
         text-decoration: none;
         outline: none;
         border: none;
     }
     .card-body {
-        color: white;
+        color: black;
         background-color: #D18621;
         padding: 0% 5% 5% 5%;
         border: none;
     }
     .rounds {
         text-align: center;
-        background-color: white;
+        background-color: black;
+        margin-top: 30%;
     }
     .rounds-text {
-        color: white;
+        color: black;
         margin: 2.5% 2%;
     }
 }
