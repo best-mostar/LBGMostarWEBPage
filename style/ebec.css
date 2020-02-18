@@ -17,10 +17,10 @@ p h1 h2 h3 h4 h5 h6{
         max-width: 100%;
     }
     .romb {
-        background-color: transparent;
+        background-color: #D88A22;
         width: 25vw;
         height: 22vh;
-        /* transform: skewX(-25deg); */
+        transform: skewX(-25deg);
         color: black;
         font-size: 12px;
         margin: 10% auto;
