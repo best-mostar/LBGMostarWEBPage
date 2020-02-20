@@ -22,7 +22,7 @@ a{
     position: relative;
     bottom: 0;
     left: 0;
-    background-image: url(/images/footer_silueta_stari_most.png);
+    background-image: url(../images/footer_silueta_stari_most.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
