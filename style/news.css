@@ -1,0 +1,40 @@
+* {
+    font-family: googleov;
+}
+
+.mainimg {
+    height: 300px;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+}
+
+#more {
+    display: none;
+}
+
+.sideimg {
+    height: 200px;
+}
+
+#sidebar {
+    margin-top: 77px;
+    background: #1b3a59;
+    /* border-radius: 15px; */
+    padding: 20px;
+}
+
+#sidebar li {
+    /* border: 1px solid white;
+    border-radius: 15px; */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#sidebar li a {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
