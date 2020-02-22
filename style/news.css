@@ -38,3 +38,7 @@ img {
     color: white;
     font-size: 24px;
 }
+
+#autor {
+    text-align: end;
+}
