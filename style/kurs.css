@@ -1,29 +1,167 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
+    background-color: #f5a37f;
 }
-.container{
-    width: 600px;
+
+/* TOP LOGO */
+
+.logoTop {
+    margin-left: 10%;
+    position: relative;
+    top: -30px;
+    background-color: #F26C2A;
+    width: 25%;
+    transform: skew(-20deg);
+}
+
+.logoTop img {
+    height: 109px;
+    width: 313px;
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
     margin: auto;
 }
-section article div{
+
+/* What ?*/
+
+#what-header {
+    position: relative;
+    left: 29px;
+    background-color: #E56329;
+    transform: skewX(20deg);
+    width: 200px;
+}
+
+#what-header h1 {
+    font-style: italic;
+}
+
+#what-content {
+    background-color: #E56329;
+    transform: skewX(-20deg);
+    width: 100%;
+    font-size: 18px;
+}
+
+/* WHERE */
+
+#where-header {
+    position: relative;
+    top: -10px;
+    left: 64.5%;
+    background-color: #E56329;
+    transform: skewX(20deg);
+    width: 200px;
+    font-style: italic;
+}
+
+#where-content {
+    background-color: #E56329;
+    transform: skewX(-20deg);
+    width: 100%;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+    left: -30px;
+}
+
+/* WHO */
+
+#who-header {
+    position: relative;
+    top: -20px;
+    left: -31px;
+    background-color: #E56329;
+    transform: skewX(20deg);
+    width: 200px;
+    font-style: italic;
+}
+
+#who-content {
+    position: relative;
+    top: -20px;
+    left: -29px;
+    background-color: #E56329;
+    transform: skewX(-20deg);
+    width: 100%;
+    font-size: 18px;
+}
+
+/* section article div {
     background-color: #E56329;
     transform: skewX(-20deg);
     width: 200px;
-}
-article:nth-child(even) div{
+} */
+
+/* 
+article:nth-child(even) div {
     float: right;
     background-color: blue;
+} */
+
+.headline {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px 0 20px 0;
+    text-align: center;
 }
-section article div h1{
+
+section article p {
+    background-color: #F26C2A;
+    padding: 20px;
+    color: white;
+}
+
+section article div h1 {
     color: white;
     margin: 0px;
     padding: 20px 0 20px 0;
     text-align: center;
 }
-section article p
-{
-    background-color:#F26C2A;
-    padding: 20px;
+
+#predavanja {
+    /* background-color: #e8987c;
+    width: 600px;
+    height: 250px;
+    transform: perspective(10px) rotateX(-1deg);
     color: white;
+    text-align: center; */
+    background-color: #e8987c;
+    width: 400px;
+    height: 250px;
+    color: white;
+    text-align: center;
+    /* transform: skew(-20deg); */
+    margin: 0;
+    position: relative;
+}
+
+#img1 {
+    width: 100%;
+    height: 250px;
+    border: 5px solid #E56329;
+}
+
+#row2 {
+    background-color: #e8987c;
+    width: 400px;
+    height: 250px;
+    color: white;
+    text-align: center;
+    /* transform: skew(-20deg); */
+}
+
+#img2 {
+    width: 100%;
+    border: 5px solid #E56329;
+}
+
+table {
+    transform: skew(-20deg);
+    margin-bottom: 100px;
 }
