@@ -1,0 +1,218 @@
+body {
+    background-color: #3B87B2;
+    font-family: 'Raleway', sans-serif;
+}
+
+.rombTimeline {
+    background-color: #A7CE54;
+        width: 20vw;
+        height: 22vh;
+        overflow: hidden;
+        transform: skew(30deg, 0deg);
+        color: white;
+        font-size: 12px;
+}
+
+.rombTimeline img {
+    transform: skew(-30deg, 0deg);
+    position: relative !important;
+    height: 100%;
+    width: 130%;
+    left: -15%;
+    
+}
+
+.romb h1 {
+    margin: 15% 0% 10% 20%;
+    transform: skewX(20deg);
+}
+
+.rombYears {
+    background-color: #A7CE54;
+        width: 20vw;
+        height: 10vh;
+        transform: skewX(-30deg);
+        color: white;
+        font-size: 12px;
+}
+
+.rombYears h1 {
+    transform: skewX(30deg);
+}
+
+.question {
+    width: 40wv;
+    background-color: #1A3855;
+    color: white;
+    font-size: 64px;
+    padding: 1%;
+}
+
+#what{
+    transform: skew(-30deg);
+}
+
+#what h1 {
+    transform: skew(30deg);
+}
+
+.romb {
+    background-color: #A7CE54;
+    width: 25vw;
+    height: 22vh;
+    transform: skewX(-30deg);
+    color: white;
+    font-size: 12px;
+}
+
+.odgovor {
+    width: 45vw;
+    height: 100%;
+    background-color: #A7CE54;
+    color: white;
+    transform: skew(-30deg);
+}
+
+.odgovor p {
+    text-align: center;
+    font-size: 3vh;
+    padding: 5%;
+    transform: skew(30deg);
+    
+
+}
+
+#why {
+    transform: skew(30deg);
+}
+
+#why h1{
+    transform: skew(-30deg);
+}
+
+/* desktop version */
+
+@media only screen and (min-width:768px) {
+    #content-mobile {
+        display: none;
+    }
+    #content-desktop {
+        display: block;
+        margin-top: 10%;
+    }
+    .jumbotron {
+        margin: 0 auto;
+    }
+    .img-fluid {
+        max-width: 100%;
+    }
+    .row {
+        margin: auto;
+        width: 90%;
+    }
+    
+    .romb img {
+        margin: 10% 10% 10% 10%;
+        width: 70%;
+        transform: skewX(20deg);
+    }
+    .romb p {
+        padding-top: 4%;
+        transform: skewX(20deg);
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .categories {
+        background-color: #ED9C26;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .img-fluid {
+        max-width: 100%;
+    }
+    .rounds {
+        background-color: white;
+        width: 20vw;
+        height: 22vh;
+    }
+    
+    .rounds img {
+        width: 80%;
+        margin: 10% 0% 10% 8%;
+    }
+    .line {
+        width: 1vw;
+        background-color: white;
+        height: 35vh;
+    }
+    .descriptions {
+        font-size: 24px;
+        display: inline-block;
+        color: white;
+    }
+
+    .angle {
+        margin-left: -10% !important;
+        z-index: -1;
+        width: 10vw;
+        height: 22vh;
+        background: #FFFFFF;
+        transform: skew(30deg, 0deg);
+    }
+}
+
+
+/* mobile version */
+
+@media only screen and (max-width:768px) {
+    #content-mobile {
+        display: block;
+        margin-top: 10%;
+    }
+    #content-desktop {
+        display: none;
+    }
+    
+    .jumbotron {
+        background-color:  #D88A22;
+        color: white;
+    }
+    .img-fluid {
+        max-width: 100%;
+    }
+    .card {
+        background-color: #D88A22;
+        margin: 2.5% 0%;
+        outline: none;
+        border: none;
+    }
+    .lead {
+        text-align: center;
+    }
+    .card .btn-lg {
+        color: white;
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+    .card-body {
+        color: white;
+        background-color: #D18621;
+        padding: 0% 5% 5% 5%;
+        border: none;
+    }
+    .rounds {
+        text-align: center;
+        background-color: white;
+        margin-top: 30%;
+    }
+    .rounds-text {
+        color: white;
+        margin: 2.5% 2%;
+    }
+}
+
+
+/*Best Courses Romb*/
