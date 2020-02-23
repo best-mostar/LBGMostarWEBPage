@@ -11,14 +11,14 @@ body {
     position: relative;
     top: -30px;
     background-color: #F26C2A;
-    width: 25%;
+    width: 24%;
     transform: skew(-20deg);
 }
 
 .logoTop img {
     height: 120px;
-    width: 313px;
-    padding: 15px;
+    width: 300px;
+    padding: 17px;
     transform: skewX(20deg);
 }
 
@@ -179,17 +179,26 @@ table {
 
 
 @media only screen and (max-width: 768px) {
-    body {
-        margin: 0px;
-        padding: 0px;
-        background-color: #f5a37f;
-        width: 100%;
-    }
     .logoTop{
-        width: 90%;
+        width: 80%;
+    }
+    .logoTop img{
+        max-width: 100%;
+        max-height: auto; 
     }
     #what-header{
-        position: relative;
-        display: inline-block;
+        border-right: 15px;
+        }
+    #what-content{
+        width: 100%;
+    }
+    #where-content{
+        width: 150%;
+    }
+    #who-content{
+        width: 150%;
+    }
+    .headline img{
+        width: 85%;
     }
 }
