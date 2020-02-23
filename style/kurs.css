@@ -16,9 +16,10 @@ body {
 }
 
 .logoTop img {
-    height: 109px;
+    height: 120px;
     width: 313px;
-    padding: 20px;
+    padding: 15px;
+    transform: skewX(20deg);
 }
 
 .container {
@@ -38,6 +39,7 @@ body {
 
 #what-header h1 {
     font-style: italic;
+    transform: skewX(-20deg);
 }
 
 #what-content {
@@ -46,6 +48,7 @@ body {
     width: 100%;
     font-size: 18px;
 }
+
 
 /* WHERE */
 
@@ -57,6 +60,10 @@ body {
     transform: skewX(20deg);
     width: 200px;
     font-style: italic;
+}
+
+#where-header h1{
+    transform: skewX(-20deg);
 }
 
 #where-content {
@@ -89,6 +96,10 @@ body {
     transform: skewX(-20deg);
     width: 100%;
     font-size: 18px;
+}
+
+#who-header h1{
+    transform: skewX(-20deg);
 }
 
 /* section article div {
@@ -164,4 +175,21 @@ section article div h1 {
 table {
     transform: skew(-20deg);
     margin-bottom: 100px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #f5a37f;
+        width: 100%;
+    }
+    .logoTop{
+        width: 90%;
+    }
+    #what-header{
+        position: relative;
+        display: inline-block;
+    }
 }
