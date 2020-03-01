@@ -254,7 +254,7 @@ body {
     margin: 10px;
 }
 
-/*MEDIA QUERIES FOR PHONES*/
+/*MEDIA QUERIES FOR EXTRA SMALL PHONES*/
 
 @media only screen and (max-width: 400px) {
     .fas-container {
@@ -323,9 +323,11 @@ body {
     }
 }
 
+/* ________________________________________________________________________________________ */
+
 /*MEDIA QUERIES FOR PHONES*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .fas-container {
         display: none;
     }
@@ -391,3 +393,5 @@ body {
         padding: 3%;
     }
 }
+
+/* ________________________________________________________________________________________ */
