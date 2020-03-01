@@ -256,7 +256,7 @@ body {
 
 /*MEDIA QUERIES FOR PHONES*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
     .fas-container {
         display: none;
     }
@@ -264,7 +264,7 @@ body {
         right: 0;
         width: 100%;
         background: #4090c4;
-        height: 25vh;
+        height: 35vh;
     }
     .testimanial_container {
         left: 0;
@@ -272,19 +272,88 @@ body {
     .testimonial_company_image {
         right: 0;
         margin-left: 5%;
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 5rem;
     }
     .testimonial_text h3 {
         text-align: center;
         margin: 0.5rem auto;
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-right: 25vh;
     }
     .testimonial_text h4 {
         text-align: center;
         margin: 0.5rem auto;
-        font-size: 0.7rem;
+        font-size: 1.0rem;
+        margin-right: 25vh;
+    }
+    .profile_image_container {
+        position: absolute;
+        right: 3.85em;
+        top: -3.85em;
+        bottom: 10%;
+        float: right;
+        transform: none;
+        width: 25vh;
+        height: 25vh;
+        border-radius: 100%;
+        margin: 0;
+    }
+    .testimanial_container p {
+        width: 65vw;
+        font-size: 0.6rem;
+        margin: 0;
+        padding: 15px;
+        padding-left: 20px;
+    }
+    .facts_section {
+        width: 110%;
+    }
+    .novosti_section {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .facts_section_content h1 {
+        padding: 10% 20%;
+        margin: 0% 0 30% 0;
+    }
+    .highlight_number h1 {
+        margin: 5% 10%;
+        padding: 3%;
+    }
+}
+
+/*MEDIA QUERIES FOR PHONES*/
+
+@media only screen and (max-width: 600px) {
+    .fas-container {
+        display: none;
+    }
+    .testimanial {
+        right: 0;
+        width: 100%;
+        background: #4090c4;
+        height: 35vh;
+    }
+    .testimanial_container {
+        left: 0;
+    }
+    .testimonial_company_image {
+        right: 0;
+        margin-left: 5%;
+        width: 5rem;
+        height: 5rem;
+    }
+    .testimonial_text h3 {
+        text-align: center;
+        margin: 0.5rem auto;
+        font-size: 1.2rem;
+        margin-right: 25vh;
+    }
+    .testimonial_text h4 {
+        text-align: center;
+        margin: 0.5rem auto;
+        font-size: 1.0rem;
         margin-right: 25vh;
     }
     .profile_image_container {
