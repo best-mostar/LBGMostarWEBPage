@@ -191,31 +191,48 @@ table p{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1330px) {
+    .container{
+        margin:0px;
+        padding: 0px;
+        width:100%;
+    }
+
     .logoTop{
-        width: 80%;
+        width: 340px;
+        margin: auto;
     }
     .logoTop img{
-        max-width: 100%;
-        max-height: 100%; 
     }
-    #what-header{
-        border-right: 15px;
+    #what-header, #what-header h1, #what-content,
+    #where-content,#where-content h1,#where-header,#where-header h1,
+    #who-header, #who-header h1, #who-content, .container table,.container h1
+
+     {
+        left: 0;
+        transform: skewX(0deg);
     }
-    #what-content{
-        width: 200%;
-        position: relative;
+    #where-content,#what-content,#who-content{
+        margin:auto;
+        width: 90%;
     }
-    #where-content{
-        width: 150%;
-    }
-    #who-content{
-        width: 150%;
+    #what-header,#where-header,#who-header{
+        margin:30px auto auto auto;
+        
     }
     .headline img{
-        width: 85%;
-    }   
-    td{
-        display: inline-block;
+        width: 100%;
     }
+}
+
+@media only screen and (max-width: 740px) {
+    #where-content,#what-content,#who-content{
+        margin:auto;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1351px) {
+.container{
+    width: 675px;
+}
 }
