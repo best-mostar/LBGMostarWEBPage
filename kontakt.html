@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style/kontakt.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <div class="container" style="height:452px;">
+        <div id="kontakt">
+            <h3>Kontakt</h3>
+        </div>
+        <article>
+            <section>
+                <p><i class="fab fa-facebook-f" style="margin-right: 40px;"></i>/BESTMostar</p>
+                <p><i class="fab fa-instagram" style="margin-right: 40px;"></i>@bestmostar</p>
+                <p><i class="fab fa-linkedin-in" style="margin-right: 40px;"></i>/company/best-mostar</p>
+                <p><i class="far fa-envelope" style="margin-right: 40px;"></i>mostar@BEST.eu.org</p>
+            </section>
+            <section>
+                <p><i class="far fa-user" style="margin-right: 40px;"></i>Mateo Puđa, predsjednik</p>
+                <p><i class="fas fa-phone" style="margin-right: 40px;"></i>+387 60 33 09 690</p>
+                <p><i class="fas fa-map-marker-alt" style="margin-right: 40px;"></i>Univerzitetski kampus. 88000 Mostar
+                </p>
+            </section>
+        </article>
+        <aside style="float:left;">
+            <div id="googleMap"></div>
+        </aside>
+    </div>
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(43.352656, 17.811756),
+                zoom: 5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+    </script>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEjtMJNiDuB1EwfKTGPP4hq5mGCkGBkLw&callback=myMap"></script>
+</body>
+
+</html>

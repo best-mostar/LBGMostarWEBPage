@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1b3a59;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+	width: 100%;
+	height: 100vh;
+}
+
+/* tried to remove the scrollbar from iframe */
+
+/* .container::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
+}
+
+iframe::-webkit-scrollbar {
+  overflow-x:hidden !important;
+  overflow-Y:hidden !important;
+  width: 0 !important;
+} */
