@@ -1,5 +1,10 @@
+@font-face {
+    font-family: Googleov;
+    src: url(font/ProductSans-Thin.woff);
+}
+
 * {
-    font-family: googleov;
+    font-family: Googleov;
 }
 
 .mainimg {
