@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #6ABDEF ! important;
+    background: #4090c4 ! important;
     color: white !important;
 }
 
@@ -35,6 +35,7 @@ img {
 }
 
 #sidebar {
+    max-width: 33.33% !important;
     margin-top: 77px;
     margin-right: 0;
     margin-left: 27px;
