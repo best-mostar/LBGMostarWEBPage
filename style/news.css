@@ -5,6 +5,16 @@
 
 * {
     font-family: Googleov;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6ABDEF ! important;
+    color: white !important;
+}
+
+.headerLogo {
+    max-height: 51px;
 }
 
 .mainimg {
@@ -26,9 +36,19 @@ img {
 
 #sidebar {
     margin-top: 77px;
+    margin-right: 0;
+    margin-left: 27px;
     background: #1b3a59;
     /* border-radius: 15px; */
     padding: 20px;
+    overflow: auto;
+    height: 700px;
+}
+
+.sidebar-item:hover {
+    background-color: unset !important;
+    color: unset !important;
+    transform: unset !important;
 }
 
 #sidebar li {
