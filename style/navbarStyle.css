@@ -50,6 +50,7 @@
 .overflowHidden {
     overflow: hidden;
     width: 100vw !important;
+    z-index: 1;
 }
 
 .navbar-brand {

@@ -78,3 +78,9 @@ img {
     left: 73.05%;
     bottom: 130px;
 }
+
+@media (max-width: 425px) {
+    #sidebar {
+        max-width: 100% !important;
+    }
+}
