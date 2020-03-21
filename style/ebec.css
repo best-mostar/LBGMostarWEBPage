@@ -16,7 +16,6 @@
     }
     .row {
         margin: auto;
-        width: 90%;
     }
     .romb {
         background-color: #D88A22;
@@ -47,12 +46,10 @@
         font-size: 20px;
     }
     body {
-        background-color: #EFA324;
+        background-color: #EFA324 !important;
         font-family: 'Raleway', sans-serif;
     }
-    .img-fluid {
-        max-width: 100%;
-    }
+   
     .rounds {
         background-color: white;
         width: 20vw;
@@ -76,6 +73,7 @@
 
     .angle {
         margin-left: -10% !important;
+        margin-top: 2.6%;
         z-index: -1;
         width: 10vw;
         height: 22vh;

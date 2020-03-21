@@ -19,6 +19,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="style/ebec.css">
+    <link rel="stylesheet" type="text/css" href="style/navbarStyle.css.css">
+    <link rel="stylesheet" type="text/css" href="style/footerStyle.css.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -30,7 +32,10 @@
 </head>
 
 <body>
-        <!-- EBEC LOGO -->
+
+    <div id="header"></div>
+    
+    <!-- EBEC LOGO -->
     <div class="container" id="content-mobile">
         <div class="jumbotron">
             <img class="img-fluid" alt="EBEC logo" src="images/EBEC_logo_white.png" />
@@ -117,7 +122,7 @@
 
     </div>
 
-    <div class="container-fluid" id="content-desktop">
+    <div class="container" id="content-desktop">
 
         <!-- EBEC LOGO -->
         <div id="logo" class="row">
@@ -171,7 +176,7 @@
             <div class="rounds m-5">
                 <img src="/images/EBEC_logo_local.png" alt="" class="img-fluid">
             </div>
-            <div class="angle m-5"></div>
+            <div class="angle"></div>
         </div>
         <div class="row justify-content-left">
             <div class="col-1 d-flex justify-content-center">
@@ -197,7 +202,7 @@
                 <div class="rounds m-5">
                     <img src="/images/EBEC_logo_balkan.png" alt="" class="img-fluid">
                 </div>
-                <div class="angle m-5"></div>
+                <div class="angle"></div>
 
             </div>
             <div class="row justify-content-left">
@@ -217,7 +222,7 @@
                 <div class="rounds m-5">
                     <img src="/images/EBEC_logo_final.png" alt="" class="img-fluid">
                 </div>
-                <div class="angle m-5"></div>
+                <div class="angle"></div>
 
             </div>
             <div class="row justify-content-left">
@@ -235,8 +240,13 @@
             </div>
     </div>
 
+    <div id="footer"></div>
 
-
+    
+    <script>
+        $('#header').load('navbar.html');
+        $('#footer').load('footer.html');
+    </script>
 </body>
 
 </html>
