@@ -70,7 +70,6 @@
 
 .nav-item {
     margin: 0 4rem;
-    font-weight: bold;
 }
 
 .nav-item:active {
@@ -113,7 +112,6 @@
 .dropdown-item {
     width: 100%;
     box-sizing: border-box !important;
-    font-weight: bold;
 }
 
 .dropdown-item:hover {
@@ -138,12 +136,16 @@
     }
     .nav-item .nav-link {
         text-align: center;
+        font-weight: bold;
     }
     .navbar a {
         font-size: 1.5rem;
     }
     .dropdown-menu {
         top: 12.3rem !important;
+    }
+    .dropdown-item {
+        font-weight: bold;
     }
 }
 
