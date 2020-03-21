@@ -70,6 +70,7 @@
 
 .nav-item {
     margin: 0 4rem;
+    font-weight: bold;
 }
 
 .nav-item:active {
@@ -112,6 +113,7 @@
 .dropdown-item {
     width: 100%;
     box-sizing: border-box !important;
+    font-weight: bold;
 }
 
 .dropdown-item:hover {
