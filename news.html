@@ -5,11 +5,12 @@
     <title>Novosti</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="news.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/style/news.css">
+    <link rel="stylesheet" href="style/news.css">
+    <link rel="stylesheet" type="text/css" href="style/navbarStyle.css">
+    <link rel="stylesheet" type="text/css" href="style/footerStyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </head>
@@ -68,7 +69,7 @@
                 </p> -->
             </div>
 
-            <div id="sidebar" class="col-sm-4 col-md-3 text-white">
+            <div id="sidebar" class="col-sm-4 col-md-4 text-white">
                 <h3>Ostale novosti</h3>
                 <p>Budite u toku sa BEST dešavanjima</p>
                 <ul class="nav flex-column">
@@ -110,11 +111,13 @@
     </div>
 
     <script>
-
         $('#header').load('navbar.html');
-        //$('#footer').load('footer.html');
+        $('#footer').load('footer.html');
+
 
     </script>
+
+
 </body>
 
 </html>
