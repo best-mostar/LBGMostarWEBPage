@@ -65,7 +65,7 @@ a{
 }
 .footer-contacts-container{
     color: #1B3A59;
-    font-size: 135%;
+    font-size: 155%;
     font-weight: bold;
     margin-top: 1%;
 }
@@ -85,7 +85,7 @@ a{
     font-size: 150%;
     font-weight: bold;
     color: white;
-    transform: skew(-15deg);
+    transform: skew(-27deg);
 }
 .footer-bottom{
     background-color: #1B3A59;
