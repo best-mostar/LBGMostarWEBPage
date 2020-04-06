@@ -1,0 +1,238 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5a37f;
+}
+
+/* TOP LOGO */
+
+.logoTop {
+    margin-left: 10%;
+    position: relative;
+    top: -30px;
+    background-color: #F26C2A;
+    width: 22%;
+    transform: skew(-20deg);
+}
+
+.logoTop img {
+    height: 120px;
+    width: 95%;
+    padding: 17px;
+    transform: skewX(20deg);
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.container h1{
+    transform:skewX(20deg) ;
+}
+/* What ?*/
+
+#what-header {
+    position: relative;
+    left: 29px;
+    background-color: #E56329;
+    transform: skewX(20deg);
+    width: 200px;
+}
+
+#what-header h1 {
+    font-style: italic;
+    transform: skewX(-20deg);
+}
+
+#what-content {
+    background-color: #E56329;
+    transform: skewX(-20deg);
+    width: 100%;
+    font-size: 18px;
+}
+
+
+/* WHERE */
+
+#where-header {
+    position: relative;
+    top: -10px;
+    left: 64.5%;
+    background-color: #E56329;
+    transform: skewX(20deg);
+    width: 200px;
+    font-style: italic;
+}
+
+#where-header h1{
+    transform: skewX(-20deg);
+}
+
+#where-content {
+    background-color: #E56329;
+    transform: skewX(-20deg);
+    width: 100%;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+    left: -30px;
+}
+
+/* WHO */
+
+#who-header {
+    position: relative;
+    top: -20px;
+    left: -31px;
+    background-color: #E56329;
+    transform: skewX(20deg);
+    width: 200px;
+    font-style: italic;
+}
+
+#who-content {
+    position: relative;
+    top: -20px;
+    left: -29px;
+    background-color: #E56329;
+    transform: skewX(-20deg);
+    width: 100%;
+    font-size: 18px;
+}
+
+#who-header h1{
+    transform: skewX(-20deg);
+}
+
+/* section article div {
+    background-color: #E56329;
+    transform: skewX(-20deg);
+    width: 200px;
+} */
+
+/* 
+article:nth-child(even) div {
+    float: right;
+    background-color: blue;
+} */
+
+.headline {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+section article p {
+    background-color: #F26C2A;
+    padding: 20px;
+    color: white;
+}
+
+section article div h1 {
+    color: white;
+    margin: 0px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+#predavanja {
+    /* background-color: #e8987c;
+    width: 600px;
+    height: 250px;
+    transform: perspective(10px) rotateX(-1deg);
+    color: white;
+    text-align: center; */
+    background-color: #e8987c;
+    width: 400px;
+    height: 250px;
+    color: white;
+    text-align: center;
+    /* transform: skew(-20deg); */
+    margin: 0;
+    position: relative;
+}
+
+#img1 {
+    width: 100%;
+    height: 250px;
+    border: 5px solid #E56329;
+}
+
+#row2 {
+    background-color: #e8987c;
+    width: 400px;
+    height: 250px;
+    color: white;
+    text-align: center;
+    /* transform: skew(-20deg); */
+}
+
+#img2 {
+    width: 100%;
+    height: 250px;
+    border: 5px solid #E56329;
+}
+
+table {
+    transform: skew(-20deg);
+    margin-bottom: 100px;
+    table-layout: fixed ;
+    width: 100%;
+}
+
+table h1{
+    margin-right: 10px;
+}
+table p{
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 1330px) {
+    .container{
+        margin:0px;
+        padding: 0px;
+        width:100%;
+    }
+
+    .logoTop{
+        width: 340px;
+        margin: auto;
+    }
+    .logoTop img{
+    }
+    #what-header, #what-header h1, #what-content,
+    #where-content,#where-content h1,#where-header,#where-header h1,
+    #who-header, #who-header h1, #who-content, .container table,.container h1
+
+     {
+        left: 0;
+        transform: skewX(0deg);
+    }
+    #where-content,#what-content,#who-content{
+        margin:auto;
+        width: 90%;
+    }
+    #what-header,#where-header,#who-header{
+        margin:30px auto auto auto;
+        
+    }
+    .headline img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    #where-content,#what-content,#who-content{
+        margin:auto;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1351px) {
+.container{
+    width: 675px;
+}
+}

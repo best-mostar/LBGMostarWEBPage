@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap 4 include -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="style/footerStyle.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <title>BEST Mostar</title>
+</head>
+<body>
+    <div style="background-color: #1B3A59; width: 100%; height: 1000px; margin: 0;">
+        <!-- delete this after -->
+    </div>
+    
+    <div class="footer">
+    <div onclick="(function scroll(){ //funkcionalnost scroll to top buttona
+        const c = document.documentElement.scrollTop || document.body.scrollTop;
+        if (c > 0) {
+            window.requestAnimationFrame(scroll);
+            window.scrollTo(0, c - c / 4);
+        }
+    })()" class="footer-arrow-button text-center">
+            <div class="footer-arrow"></div>
+        </div>
+        <div class="row">
+            <div class="footer-contacts-square col-sm-1 col-md-2 col-4"></div>
+            <div class="footer-contacts-square col-sm-2 col-md-2 col-lg-1 col-3 text-left">Kontakt</div>
+            <div class="footer-contacts-triangle"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="footer-contacts-container col-sm-5 col-md-4 col-12 text-center text-sm-left">
+                <i class="fas fa-user d-none d-sm-inline"></i>
+                <span> &ensp; Mateo Puđa, predsjednik</span> </br>
+                <i class="fas fa-envelope d-none d-sm-inline"></i>
+                <a href="mostar@BEST.eu.org" target="_blank"> <span> &ensp; mostar@BEST.eu.org</span> </a> </br> 
+                <i class="fas fa-phone d-none d-sm-inline"></i>
+                <span> &ensp; +387 60 330 9690</span> </br>
+                <i class="fas fa-location-arrow d-none d-sm-inline"></i>
+                <span> &ensp; Univerzitetski kampus, 88000 Mostar</span> </br>
+            </div>
+            <div class="d-none d-lg-block col-lg-1 col-xl-2"></div>
+            <div class="footer-slogan-container text-center d-none d-md-block col-md-4 col-lg-3">
+                <div class="footer-slogan"><p class="footer-slogan-text">Make memories,</p></div>
+                <div class="footer-slogan pull-right"><p class="footer-slogan-text">not excuses!</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 text-md-left">Created by BEST Mostar IT team</div>
+                <div class="col-md-6 text-md-right" >Supported by MSS</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
