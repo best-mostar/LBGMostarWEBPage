@@ -9,7 +9,6 @@ body {
 .logoTop {
     margin-left: 10%;
     position: relative;
-    top: -30px;
     background-color: #F26C2A;
     width: 22%;
     transform: skew(-20deg);

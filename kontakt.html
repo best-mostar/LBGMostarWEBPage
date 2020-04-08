@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
-    <link rel="stylesheet" href="style/kontakt.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script/Include.js"></script>
 </head>
 
 <body>
 
-    <div class="container" style="height:452px;">
+    <div include-html="navbar.html"></div> 
+    <script>
+        includeHTML();
+        </script>
+
+
+    <div class="container" id="main">
         <div id="kontakt">
             <h3>Kontakt</h3>
         </div>
@@ -25,14 +33,15 @@
             <section>
                 <p><i class="far fa-user" style="margin-right: 40px;"></i>Mateo Puđa, predsjednik</p>
                 <p><i class="fas fa-phone" style="margin-right: 40px;"></i>+387 60 33 09 690</p>
-                <p><i class="fas fa-map-marker-alt" style="margin-right: 40px;"></i>Univerzitetski kampus. 88000 Mostar
-                </p>
+                <p><i class="fas fa-map-marker-alt" style="margin-right: 40px;"></i>Univerzitetski kampus. 88000</p>
             </section>
         </article>
         <aside style="float:left;">
             <div id="googleMap"></div>
         </aside>
     </div>
+
+    
     <script>
         function myMap() {
             var mapProp = {
@@ -45,6 +54,20 @@
 
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEjtMJNiDuB1EwfKTGPP4hq5mGCkGBkLw&callback=myMap"></script>
-</body>
+    
+        <div include-html="footer.html"></div> 
+        <script>
+            includeHTML();
+            </script>
+    
+    <link rel="stylesheet" href="style/kontakt.css">
+    
+
+
+    </body>
+
+    
+
+
 
 </html>

@@ -1,11 +1,24 @@
-.container {
+body {
+    background-color: #3B87B2;
+    font-family: 'Googleov', sans-serif;
+}
+
+
+@font-face {
+    font-family: Googleov;
+    src: url(font/ProductSans-Thin.woff);
+}
+
+.container#main {
     color: white;
     font-size: 22px;
     width: 70%;
     margin: auto;
     padding-top: 150px;
 }
-
+div.container#main{
+    height: 550px;
+}
 article {
     float: left;
     width: 60%;
@@ -67,5 +80,8 @@ body {
     }
     .container {
         width: 95%;
+    }
+    div.container#main{
+        height: 980px;
     }
 }
