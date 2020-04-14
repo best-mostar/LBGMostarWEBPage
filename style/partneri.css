@@ -1,12 +1,11 @@
-* {
-	color: white;
-}
+
 body {
 	background-color: #4090c4;
 }
 .thanks-container {
-	width: 70%;
+	width: 90%;
 	margin: 5vh auto;
+	color: white;
 }
 .thanks-logo {
 	background: url("../images/partneri_thanks_logo.png");
@@ -18,14 +17,14 @@ body {
 .thanks-message {
 	margin: 4% 0;
 	font-weight: bold;
-	font-size: 160%;
+	font-size: 200%;
 }
 .partner-logo {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
 	.thanks-message {
 		text-align: center;
 		font-size: 150%;
