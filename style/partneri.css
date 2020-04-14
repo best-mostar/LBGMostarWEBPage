@@ -1,10 +1,13 @@
-
-body {
+*{
+	margin: 0;
+}
+.partneri-container {
 	background-color: #4090c4;
+	padding-top: 5vh;
 }
 .thanks-container {
 	width: 90%;
-	margin: 5vh auto;
+	margin: auto;
 	color: white;
 }
 .thanks-logo {
