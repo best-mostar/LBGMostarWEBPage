@@ -1,21 +1,14 @@
-@font-face {
-    font-family: Googleov;
-    src: url(font/ProductSans-Thin.woff);
-}
 
-* {
-    font-family: Googleov;
-}
-
+/* 
  *,
  *::before,
  *::after {
     -webkit-box-sizing: content-box !important;
     -moz-box-sizing: content-box !important;
     box-sizing: content-box !important;
-}
+} */
 
-.navbar {
+.navbar{
     background-color: #1B3A59 !important;
     padding: 0% !important;
     height: 70px;
@@ -175,5 +168,14 @@
     .dropdown-menu {
         top: 4.1rem !important;
     }
+}
+@media only screen and (max-width: 1600px) {
+    .navbar a {
+        font-size: 1.3rem;
+    }
+
+    .dropdown-menu {
+        top: 4.085rem !important;
+    } 
 }
 
