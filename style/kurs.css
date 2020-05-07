@@ -40,83 +40,78 @@ body {
     background-color: #E56329;
     transform: skewX(20deg);
     width: 200px;
+    margin-top: 100px;
 }
 
 #what-header h1 {
-    font-style: italic;
     transform: skewX(-20deg);
+    font-size: 32px;
+    font-weight: bold;
 }
 
 #what-content {
     background-color: #E56329;
-    transform: skewX(-20deg);
+    /* transform: skewX(-20deg); */
     width: 100%;
     font-size: 18px;
+    margin-left: 43px;
 }
 
 /* WHERE */
 
 #where-header {
     position: relative;
-    top: -10px;
-    left: 64.5%;
+    top: -16px;
+    left: 77.9%;
     background-color: #E56329;
     transform: skewX(20deg);
     width: 200px;
-    font-style: italic;
 }
 
 #where-header h1 {
     transform: skewX(-20deg);
+    font-size: 32px;
+    font-weight: bold;
 }
 
 #where-content {
     background-color: #E56329;
-    transform: skewX(-20deg);
-    width: 100%;
+    width: 104.5%;
     font-size: 18px;
     position: relative;
-    top: -10px;
-    left: -30px;
+    top: -16px;
+    left: 42px;
 }
 
 /* WHO */
 
 #who-header {
     position: relative;
-    top: -20px;
-    left: -31px;
+    left: 56px;
     background-color: #E56329;
     transform: skewX(20deg);
     width: 200px;
-    font-style: italic;
+    top: -32px;
 }
 
 #who-content {
     position: relative;
-    top: -20px;
-    left: -29px;
-    background-color: #E56329;
-    transform: skewX(-20deg);
-    width: 100%;
+    top: -32px;
+    left: 70px;
+    width: 100.8%;
     font-size: 18px;
 }
 
 #who-header h1 {
     transform: skewX(-20deg);
+    font-size: 32px;
+    font-weight: bold;
 }
 
-/* section article div {
-    background-color: #E56329;
-    transform: skewX(-20deg);
-    width: 200px;
-} */
-
-/* 
-article:nth-child(even) div {
-    float: right;
-    background-color: blue;
-} */
+#what-content, #where-content, #who-content {
+    text-align: center;
+    font-size: 21px;
+}
 
 .headline {
     color: white;
