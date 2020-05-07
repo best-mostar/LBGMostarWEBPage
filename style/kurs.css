@@ -7,19 +7,20 @@ body {
 /* TOP LOGO */
 
 .logoTop {
-    margin-left: 10%;
+    margin-left: 10.9%;
     position: relative;
-    top: -30px;
+    top: 6px;
     background-color: #F26C2A;
     width: 22%;
     transform: skew(-20deg);
 }
 
 .logoTop img {
-    height: 120px;
-    width: 95%;
+    height: 90px;
+    width: 75%;
     padding: 17px;
     transform: skewX(20deg);
+    margin-left: 30px;
 }
 
 .container {
@@ -27,9 +28,10 @@ body {
     margin: auto;
 }
 
-.container h1{
-    transform:skewX(20deg) ;
+.container h1 {
+    transform: skewX(20deg);
 }
+
 /* What ?*/
 
 #what-header {
@@ -52,7 +54,6 @@ body {
     font-size: 18px;
 }
 
-
 /* WHERE */
 
 #where-header {
@@ -65,7 +66,7 @@ body {
     font-style: italic;
 }
 
-#where-header h1{
+#where-header h1 {
     transform: skewX(-20deg);
 }
 
@@ -101,7 +102,7 @@ body {
     font-size: 18px;
 }
 
-#who-header h1{
+#who-header h1 {
     transform: skewX(-20deg);
 }
 
@@ -179,60 +180,54 @@ section article div h1 {
 table {
     transform: skew(-20deg);
     margin-bottom: 100px;
-    table-layout: fixed ;
+    table-layout: fixed;
     width: 100%;
 }
 
-table h1{
+table h1 {
     margin-right: 10px;
 }
-table p{
+
+table p {
     padding: 20px;
 }
 
-
 @media only screen and (max-width: 1330px) {
-    .container{
-        margin:0px;
+    .container {
+        margin: 0px;
         padding: 0px;
-        width:100%;
+        width: 100%;
     }
-
-    .logoTop{
+    .logoTop {
         width: 340px;
         margin: auto;
     }
-    .logoTop img{
-    }
-    #what-header, #what-header h1, #what-content,
-    #where-content,#where-content h1,#where-header,#where-header h1,
-    #who-header, #who-header h1, #who-content, .container table,.container h1
-
-     {
+    .logoTop img {}
+    #what-header, #what-header h1, #what-content, #where-content, #where-content h1, #where-header, #where-header h1, #who-header, #who-header h1, #who-content, .container table, .container h1 {
         left: 0;
         transform: skewX(0deg);
     }
-    #where-content,#what-content,#who-content{
-        margin:auto;
+    #where-content, #what-content, #who-content {
+        margin: auto;
         width: 90%;
     }
-    #what-header,#where-header,#who-header{
-        margin:30px auto auto auto;
-        
+    #what-header, #where-header, #who-header {
+        margin: 30px auto auto auto;
     }
-    .headline img{
+    .headline img {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 740px) {
-    #where-content,#what-content,#who-content{
-        margin:auto;
+    #where-content, #what-content, #who-content {
+        margin: auto;
         width: 100%;
     }
 }
+
 @media only screen and (min-width: 1351px) {
-.container{
-    width: 675px;
-}
+    .container {
+        width: 675px;
+    }
 }
