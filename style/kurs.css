@@ -121,6 +121,11 @@ body {
     text-align: center;
 }
 
+.headline h1 {
+    font-weight: bold;
+    font-size: 46px;
+}
+
 section article p {
     background-color: #F26C2A;
     padding: 20px;
