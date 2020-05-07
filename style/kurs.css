@@ -181,15 +181,20 @@ table {
     transform: skew(-20deg);
     margin-bottom: 100px;
     table-layout: fixed;
-    width: 100%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 table h1 {
     margin-right: 10px;
+    font-weight: bold;
+    transform: skewX(20deg);
 }
 
 table p {
-    padding: 20px;
+    padding: 0px 30px;
+    transform: skewX(20deg);
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 1330px) {
