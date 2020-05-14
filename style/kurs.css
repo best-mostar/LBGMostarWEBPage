@@ -1,18 +1,25 @@
+html {
+    background-color: #f5a37f;
+}
+
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #f5a37f;
+    display: inline-block;
 }
 
 /* TOP LOGO */
 
 .logoTop {
-    margin-left: 10.9%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    top: 6px;
+    top: 12px;
     background-color: #F26C2A;
-    width: 22%;
+    max-width: 22%;
+    height: auto;
     transform: skew(-20deg);
+    display: block;
 }
 
 .logoTop img {
@@ -21,6 +28,7 @@ body {
     padding: 17px;
     transform: skewX(20deg);
     margin-left: 30px;
+    display:block;
 }
 
 .container {
@@ -28,23 +36,24 @@ body {
     margin: auto;
 }
 
-.container h1 {
+/*.container h1 {
     transform: skewX(20deg);
-}
+}*/
 
 /* What ?*/
 
 #what-header {
     position: relative;
-    left: 29px;
+    left: 14px;
+    top: 21px;
     background-color: #E56329;
-    transform: skewX(20deg);
+    transform: skewX(-20deg);
     width: 200px;
     margin-top: 100px;
 }
 
 #what-header h1 {
-    transform: skewX(-20deg);
+    transform: skewX(20deg);
     font-size: 32px;
     font-weight: bold;
 }
@@ -54,15 +63,16 @@ body {
     /* transform: skewX(-20deg); */
     width: 100%;
     font-size: 18px;
-    margin-left: 43px;
+  
+    box-sizing: border-box;
 }
 
 /* WHERE */
 
 #where-header {
     position: relative;
-    top: -16px;
-    left: 77.9%;
+    top: -21px;
+    left: 489px;
     background-color: #E56329;
     transform: skewX(20deg);
     width: 200px;
@@ -79,25 +89,25 @@ body {
     width: 104.5%;
     font-size: 18px;
     position: relative;
-    top: -16px;
-    left: 42px;
+    top: -42px;
+    left: -2px;
 }
 
 /* WHO */
 
 #who-header {
     position: relative;
-    left: 56px;
     background-color: #E56329;
     transform: skewX(20deg);
     width: 200px;
-    top: -32px;
+    top: -63px;
+    left: 12px;
 }
 
 #who-content {
     position: relative;
-    top: -32px;
-    left: 70px;
+    top: -84px;
+    left: 26px;
     width: 100.8%;
     font-size: 18px;
 }
@@ -115,7 +125,7 @@ body {
 
 .headline {
     color: white;
-    margin-top: 100px;
+    margin-top: 0px;
     margin-bottom: 100px;
     padding: 20px 0 20px 0;
     text-align: center;
@@ -205,12 +215,14 @@ table p {
     }
     .logoTop {
         width: 340px;
-        margin: auto;
+        margin: auto auto 60px auto;
+        min-width: 280px;
     }
     .logoTop img {}
     #what-header, #what-header h1, #what-content, #where-content, #where-content h1, #where-header, #where-header h1, #who-header, #who-header h1, #who-content, .container table, .container h1 {
         left: 0;
         transform: skewX(0deg);
+        top: 0;
     }
     #where-content, #what-content, #who-content {
         margin: auto;
@@ -236,3 +248,32 @@ table p {
         width: 675px;
     }
 }
+/*
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+        transform: skew(0deg);
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+}*/
