@@ -141,7 +141,6 @@ section article div h1 {
     text-align: center;
 }
 
-
 #predavanja {
     /* background-color: #e8987c;
     width: 600px;
@@ -211,7 +210,9 @@ table p {
         margin-left: auto;
         margin-right: auto;
     }
-
+    #what-header, #where-header {
+        width: 40%;
+    }
     #what-header, #what-header h1, #what-content, #where-content, #where-content h1, #where-header, #where-header h1, #who-header, #who-header h1, #who-content, .container table, .container h1 {
         left: 0;
         transform: skewX(0deg);
@@ -226,49 +227,47 @@ table p {
     .headline img {
         width: 100%;
     }
+    #predavanja h1, #row2 h1 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #predavanja img, #row2 img {
+        margin: 30px 0px;
+    }
 }
 
 @media only screen and (max-width: 740px) {
-
     .logoTop {
         min-width: 75%;
         margin-left: auto;
         margin-right: auto;
     }
-
     #where-content, #what-content, #who-content {
         margin: auto;
         width: 100%;
     }
-
     table {
         width: 100%;
     }
-    table,
-    table h1,
-    table p {
+    table, table h1, table p {
         transform: skew(0deg);
         margin: auto;
     }
-
     table tr {
         margin-bottom: 10px;
         display: block;
     }
-
     table tr:last-child {
         padding-bottom: 10%;
     }
     table td {
         display: block;
     }
-
     #predavanja {
-        width:100%;
+        width: 100%;
     }
-    
     #row2 {
-        display:flex;
+        display: flex;
         flex-direction: column-reverse;
     }
 }
