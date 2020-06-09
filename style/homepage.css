@@ -244,9 +244,9 @@ body {
     color: rgba(0, 0, 0, 0.7);
 }
 
-.date_time p {
+/* .date_time p {
     margin: 0;
-}
+} */
 
 .read_more_btn {
     position: relative;
@@ -256,7 +256,7 @@ body {
 
 /*MEDIA QUERIES FOR PHONES*/
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     .fas-container {
         display: none;
     }
@@ -321,6 +321,4 @@ body {
         margin: 5% 10%;
         padding: 3%;
     }
-}
-
-/* ________________________________________________________________________________________ */
+} */
