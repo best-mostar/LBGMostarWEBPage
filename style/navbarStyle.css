@@ -3,21 +3,28 @@
     src: url(font/ProductSans-Thin.woff);
 }
 
-* {
+/* * {
     font-family: Googleov;
 }
 
+<<<<<<< HEAD
 /* nav>* {
+=======
+*, *::before, *::after {
+>>>>>>> berin_projekti_kurs
     -webkit-box-sizing: content-box !important;
     -moz-box-sizing: content-box !important;
     box-sizing: content-box !important;
 } */
+<<<<<<< HEAD
 
 /* *, *::before, *::after {
     -webkit-box-sizing: content-box !important;
     -moz-box-sizing: content-box !important;
     box-sizing: content-box !important;
 } */
+=======
+>>>>>>> berin_projekti_kurs
 
 .navbar {
     background-color: #1B3A59 !important;
@@ -27,7 +34,7 @@
 
 .navbar a {
     color: #FFFFFF !important;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .navbar .container-fluid {
@@ -50,7 +57,10 @@
 .overflowHidden {
     overflow: hidden;
     width: 100vw !important;
+<<<<<<< HEAD
     z-index: 1;
+=======
+>>>>>>> berin_projekti_kurs
 }
 
 .navbar-brand {
@@ -144,9 +154,12 @@
     .dropdown-menu {
         top: 12.3rem !important;
     }
+<<<<<<< HEAD
     .dropdown-item {
         font-weight: bold;
     }
+=======
+>>>>>>> berin_projekti_kurs
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
