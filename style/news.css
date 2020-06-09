@@ -1,5 +1,15 @@
-* {
-    font-family: googleov;
+@font-face {
+    font-family: Googleov;
+    src: url(font/ProductSans-Thin.woff);
+}
+
+body {
+    background: #4090c4 ! important;
+    color: white !important;
+}
+
+.headerLogo {
+    max-height: 51px;
 }
 
 .mainimg {
@@ -20,10 +30,21 @@ img {
 }
 
 #sidebar {
+    max-width: 30.33% !important;
     margin-top: 77px;
+    margin-right: 0;
+    margin-left: 3%;
     background: #1b3a59;
     /* border-radius: 15px; */
     padding: 20px;
+    overflow: auto;
+    height: 700px;
+}
+
+.sidebar-item:hover {
+    background-color: unset !important;
+    color: unset !important;
+    transform: unset !important;
 }
 
 #sidebar li {
@@ -39,7 +60,30 @@ img {
     font-size: 24px;
 }
 
+.dropdown-menu {
+    background-color: #CE2124 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #F85758 !important;
+}
+
 #autor {
     text-align: end;
     font-style: italic;
+}
+
+.footer-slogan-container {
+    position: absolute;
+    left: 73.05%;
+    bottom: 130px;
+}
+
+@media (max-width: 425px) {
+    #sidebar {
+        max-width: 100% !important;
+    }
+    p {
+        font-size: 18px;
+    }
 }

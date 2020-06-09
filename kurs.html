@@ -5,35 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="script/script.js"></script>
 
-    <!-- Bootstrap 3 include -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="style/kurs.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>BEST Mostar</title>
 
     <link rel="shortcut icon" href="images/favicon/best.ico" type="image/x-icon" />
+
+    <script src="script/Include.js"></script>
 </head>
 
 <body>
 
 
-    <!-- header -->
-    <!-- delete this after -->
-    <div class="jumbotron">
 
-        Header
+    <div id="header">
+
+
+
+
     </div>
 
 
+
     <div class="logoTop">
-        <img class="img-fluid" alt="Course Logo" src="images/best_courses_logo.png" />
+        <img alt="Course Logo" src="images/best_courses_logo.png" />
     </div>
 
 
@@ -64,7 +59,7 @@
                 </div>
                 <div id="where-content">
                     <p>Kursevi se organizuju u raznim Europskim državama, od Španije do
-                        Rusije <br> i podjeljeni su u 4 sezone (proljeće, ljeto, jesen i zima).
+                        Rusije i podjeljeni su u 4 sezone <br> (proljeće, ljeto, jesen i zima).
                     </p>
                 </div>
             </article>
@@ -89,12 +84,15 @@
         </section>
     </div>
 
-    <div class="headline">
-        <h1>What do I get?</h1>
-        <img src="images/underline.PNG" alt="" srcset="">
-    </div>
 
-    <div class="container">
+
+    <div id="container">
+
+        <div class="headline">
+            <h1>What do I get?</h1>
+            <img src="images/underline.PNG" alt="" srcset="">
+        </div>
+
         <table>
             <tr id="predavanja">
                 <td>
@@ -123,6 +121,29 @@
         </table>
     </div>
 
+
+
+    <div id="footer">
+
+    </div>
+    <link rel="stylesheet" type="text/css" href="style/kurs.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
+
+    <!-- Bootstrap 3 include -->
+
+
+
 </body>
 
 </html>
+
+<script>
+
+    $('#header').load('navbar.html');
+    $('#footer').load('footer.html');
+
+
+
+</script>
